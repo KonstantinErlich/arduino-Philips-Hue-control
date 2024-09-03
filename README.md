@@ -1,5 +1,5 @@
 # arduino-Philips-Hue-control
-this setup controls a Philips Hue light based via a light sensor (BH1750) and a potentiometer.
+this setup controls a Philips Hue light via a light sensor (BH1750) and a potentiometer.
 
 To create an authorized user for the API see: https://developers.meethue.com/develop/get-started-2/
 
