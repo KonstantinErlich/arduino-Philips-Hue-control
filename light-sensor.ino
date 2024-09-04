@@ -1,4 +1,4 @@
-#include <WiFiS3.h> //used on the Arduino Uno R4 Wifi, for a different board see which library you need.
+#include <WiFiS3.h> //used by the Arduino Uno R4 Wifi, for a different board see which library you need.
 #include "secrets.h" //used to store sensitive data
 #include <Wire.h>
 #include <BH1750.h>
@@ -16,7 +16,7 @@ int state = 0;
 
 WiFiClient client;
 
-IPAddress hueHub(SECRET_HUE_IP); // Replace with your Hue Bridge IP
+IPAddress hueHub(SECRET_HUE_IP); 
 const char* hueUsername = SECRET_HUE_USERNAME;
 const int hueLight = 1; // The ID of the Hue light you want to control
 
